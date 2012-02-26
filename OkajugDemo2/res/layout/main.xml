@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button android:text="Fragment1のみ"
+			android:id="@+id/frg1only"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+
+	<Button android:text="Fragment2のみ"
+			android:id="@+id/frg2only"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"	/>
+			
+	<Button android:text="Fragment1,2両方" 
+			android:id="@+id/frg12both"
+		android:layout_width="match_parent"
+	android:layout_height="wrap_content"	 />
+	
+		<LinearLayout android:orientation="horizontal"
+				  android:layout_width="fill_parent"
+				  android:layout_height="fill_parent">	
+				  
+		<!--  <fragment
+				android:name="wiki.deep.okajugdemo2.FragmentEx1" 
+				android:id="@+id/frag"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+			/>
+			<fragment
+				android:name="wiki.deep.okajugdemo2.FragmentEx2"
+				android:id="@+id/fragtwo"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+			/>   -->
+	</LinearLayout>
+</LinearLayout>

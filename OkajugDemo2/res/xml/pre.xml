@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+<PreferenceCategory android:title="Activity">
+ 	<CheckBoxPreference
+		android:key="Activity"
+		android:defaultValue="false"
+		android:title=""
+		android:summary="Activityのフェーズをトーストで表示する場合はチェック"
+		/>
+</PreferenceCategory>
+
+<PreferenceCategory android:title="Fragment1">
+ 	<CheckBoxPreference
+		android:key="Fragment1"
+		android:defaultValue="false"
+		android:title=""
+		android:summary="Fragment1のフェーズをトーストで表示する場合はチェック"
+
+		/>
+</PreferenceCategory>
+
+<PreferenceCategory android:title="Fragment2">
+ 	<CheckBoxPreference
+		android:key="Framgent2"
+		android:defaultValue="false"
+		android:title=""
+		android:summary="Fragment2のフェーズをトーストで表示する場合はチェック"
+		/>
+</PreferenceCategory>
+</PreferenceScreen>
