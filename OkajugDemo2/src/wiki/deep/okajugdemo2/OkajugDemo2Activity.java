@@ -81,7 +81,7 @@ public class OkajugDemo2Activity extends Activity {
 	    // メニューの要素を追加して取得
 	    MenuItem actionItem = menu.add("Setting");
 	    // SHOW_AS_ACTION_IF_ROOM:余裕があれば表示
-	    actionItem.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+	    actionItem.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
 	    actionItem.setIcon(android.R.drawable.ic_menu_more);
 	    return true;
     }
